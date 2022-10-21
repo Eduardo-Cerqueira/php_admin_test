@@ -27,6 +27,17 @@ $users = $stmt->fetchAll();
     <div></div>
 
     <!-- Table des Utilisateurs -->
-    <div></div>
+    <div>
+    <table>
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Created At</th>
+        <th>Updated At</th>
+    </tr>
+    <?php include 'tableau.php' ?>
+</table>
+</div>
 </body>
 </html>
